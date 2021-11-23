@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>This is a calculator written in what now?</title>
+
+</head>
+
+
+<body>
+<h3 style="color: aqua;">no waaay a calculator?</h3>
+<p>wow cool</p>
+<p>ok ur first number goes here</p>
+<input type="1number" id="first number" name="quantity"> 
+<p>what is it gonna be</p>
+<select id="operator">
+    <option value="+">plus +</option>
+    <option value="-">minus -</option>
+    <option value="/">divide /</option>
+    <option value="*">multiply *</option>
+  </select> 
+<p>finally a second number</p>
+<input type="2number" id="second number" name="quantity"> 
+<p id="answer"></p>
+<script>
+    function calc(){
+        let a = document.getElementById("first number").value;
+        let b = document.getElementById("operator").value;
+        let c = document.getElementById("second number").value;
+        if (b == '+'){
+             document.getElementById("answer").innerHTML = +a + +c;
+        }
+        else if (b == '-'){
+            document.getElementById("answer").innerHTML = a - c;
+        }
+        else if (b == '*'){
+            document.getElementById("answer").innerHTML = a * c;
+        }
+        else if (b == '/'){
+            document.getElementById("answer").innerHTML = a / c;
+        }
+        console.log(a,b,c);
+    }
+</script>
+<button type="button" onclick="calc()">Wooohooo</button>
+<br><br>
+<input type="button" onclick="location.href='index.html';" value="go bacc" /> 
+</body>
+
+
+</html>
