@@ -1,0 +1,32 @@
+html {
+  font-family: Helvetica, san-serif;
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  height: 100%;
+  position: relative;
+  border-color: darkgreen indigo cornsilk goldenrod;
+  border-style: double;
+  border-width: 5px 7px;
+  /* border-radius: 25px; */
+  background: grey url(Images/stick.jpg) center scroll;
+}
+
+div {
+  border-color: goldenrod;
+  border-style: double;
+  border-width: 5px 7px;
+  margin: 1% 20%;
+}
+
+h1.css,
+p.css {
+  background: rgba(104, 38, 15, 0.685) url(Images/rainbow.gif) center scroll;
+  color: crimson;
+  text-align: center;
+  border: 3px dotted indigo;
+  /* opacity: 0.7; */
+}
+
