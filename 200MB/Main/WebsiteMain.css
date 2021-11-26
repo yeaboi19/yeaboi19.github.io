@@ -1,0 +1,109 @@
+body {
+  background-image: url(/200MB/Images/neon.jpg);
+  font-family: "Courier New", Courier, monospace;
+}
+.type1 {
+  color: greenyellow;
+  font-family: monospace;
+}
+p.one {
+  border-style: solid;
+  border-width: 9px;
+  border-left-color: greenyellow;
+}
+h2.overline {
+  text-decoration: overline;
+  color: greenyellow;
+  text-align: right;
+}
+h2 {
+  color: greenyellow;
+  text-align: right;
+}
+a:link,
+a:visited {
+  background-color: rgb(87, 4, 87);
+  color: greenyellow;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-flex;
+}
+::selection {
+  color: greenyellow;
+}
+
+a:hover,
+a:active {
+  background-color: red;
+}
+table,
+th,
+td {
+  border: 1px solid red;
+  color: greenyellow;
+  width: 20%;
+  text-align: center;
+  padding: 3px;
+}
+th {
+  height: 30px;
+}
+
+div.fixed {
+  font-family: "Courier New", Courier, monospace;
+  position: fixed;
+  color: red;
+  bottom: 0;
+  right: 0;
+  border: 3px solid red;
+}
+p.hidden {
+  display: none;
+  padding: 20px;
+}
+
+div:hover p {
+  color: greenyellow;
+  display: block;
+}
+div.shadow {
+  width: 250px;
+  height: 100px;
+  padding: 10px;
+  background-color: greenyellow;
+  box-shadow: 10px 10px 2px yellow;
+  transform: rotate(-7deg);
+}
+
+ul {
+  position: fixed;
+  bottom: 0;
+  width: 55%;
+  padding: 0%;
+  margin-left: 23%;
+  background-color: aqua;
+  list-style-type: none;
+}
+li {
+  display: block;
+}
+li a {
+  font-size: larger;
+  color: white;
+  padding: 15px 16px;
+}
+
+li a:hover {
+  animation-name: onHover;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  background-color: darkslateblue;
+}
+@keyframes onHover {
+  0%   {background-color: rgb(87, 4, 87);}
+  25%  {background-color: darkred;}
+  50%  {background-color:rgb(22, 78, 20)}
+  100% {background-color: rgb(87, 4, 87);}
+}
+
